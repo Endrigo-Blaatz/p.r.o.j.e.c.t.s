@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    background-color: var(--cor003);
+}
+
+:root {
+    --cor001: #99582A; 
+    --cor002: #BB9457;
+    --cor003: #FFE6A7;
+
+    --font-padrao: Arial, Verdana, Heivetica, sans-serif;
+}
+ 
+nav a {
+    padding: 10px;
+    
+    
+}
+.link {
+    margin: auto;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+main p {
+    text-indent: 30px;
+}
